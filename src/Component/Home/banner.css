@@ -1,0 +1,37 @@
+.container{
+    background-image: url(../image/objects.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.center-main{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    
+}
+.center-main h2{
+    /* width: 50%; */
+    font-size: 52px;
+   
+}
+
+
+.center-main button{
+    border: 1px solid black;
+    background-color: white;
+    color: gray;
+    width: 284px;
+    height: 50px;
+    font-size: 27px;
+    border-radius: 20px;
+
+}
